@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+}
+
+form {
+    margin: 2em auto;
+    width: 300px;
+}
+
+#numberList p {
+    display: none;
+    margin: 5px 0 auto;
+    background-color: #222;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+
+textarea {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+}
